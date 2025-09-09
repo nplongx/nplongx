@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Hi, I'm Long Nguyễn  
 
-<!--
-**nplong-dev/nplong-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🦀 Rustacean in training | 🔧 IoT tinkerer | ⚡ Embedded enthusiast | 🌐 Aspiring Fullstack Developer  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌟 About Me
+- 🎓 Software Engineering student, curious about **low-level** and **high-level** programming  
+- 🦀 Learning **Rust** for backend & system-level development  
+- 🔧 Playing with **IoT** and **Embedded systems** (ESP32, Arduino)  
+- 🌐 Exploring **Fullstack development** with modern frameworks  
+- ☁️ Interested in **Cloud, Docker, and microservices**  
+
+---
+
+## 🚀 Tech Stack
+**Languages**: Rust, C/C++, JavaScript  
+**Backend**: Actix Web (Rust), Node.js  
+**Frontend**: Vue.js, React  
+**Database**: PostgreSQL, MySQL, Firestore  
+**Others**: Docker, Git, Linux  
+
+---
+
+## 📊 GitHub Stats
+![Long's GitHub stats](https://github-readme-stats.vercel.app/api?username=nplong-dev&show_icons=true&theme=tokyonight)  
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nplong-dev&layout=compact&theme=tokyonight)
+
+---
+
+## 🌱 Currently
+- Building a **timekeeping app** with Rust + PostgreSQL  
+- Experimenting with **IoT devices** & real-time data streaming  
+- Practicing **Fullstack projects** to sharpen web dev skills  
