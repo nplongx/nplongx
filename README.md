@@ -23,9 +23,9 @@
 ---
 
 ## 📊 GitHub Stats
-![Long's GitHub stats](https://github-readme-stats.vercel.app/api?username=nplong-dev&show_icons=true&theme=tokyonight)  
+![Long's GitHub stats](https://github-readme-stats.vercel.app/api?username=nplongx&show_icons=true&theme=tokyonight)  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nplong-dev&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nplongx&layout=compact&theme=tokyonight)
 
 ---
 
