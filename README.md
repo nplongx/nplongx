@@ -30,6 +30,5 @@
 ---
 
 ## 🌱 Currently
-- Building a **timekeeping app** with Rust + PostgreSQL  
 - Experimenting with **IoT devices** & real-time data streaming  
 - Practicing **Fullstack projects** to sharpen web dev skills  
