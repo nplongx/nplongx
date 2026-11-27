@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="./assets/decade-banner.svg" alt="NPLONGX — Dimension Traveler" width="100%" />
+  <img src="./assets/decade-banner-animated.svg" alt="Animated NPLONGX — Dimension Traveler banner" width="100%" />
   <br />
   <h1>LONG NGUYEN</h1>
   <p><strong>DIMENSION TRAVELER · SYSTEMS BUILDER</strong></p>
+  <p><sub>LIVE CARD SCAN · ROTATING DIMENSION GATE · NEON PULSE</sub></p>
   <p>Building systems that connect agents, tools, workflows, and machines.</p>
   <p>
     <a href="https://github.com/nplongx"><img src="https://img.shields.io/badge/GitHub-nplongx-17121f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>

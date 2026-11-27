@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">NPLONGX — Dimension Traveler (Animated)</title>
+  <desc id="desc">Animated black and magenta Rider Card banner with a rotating dimensional portal, floating card, moving scanline, and pulsing neon accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08080d"/>
+      <stop offset="0.58" stop-color="#15101a"/>
+      <stop offset="1" stop-color="#050509"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8bd1"/>
+      <stop offset="0.48" stop-color="#f52b9b"/>
+      <stop offset="1" stop-color="#a90064"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4ab2" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ff8bd1" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ff4ab2" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="portalGlow">
+      <stop offset="0" stop-color="#f52b9b" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#f52b9b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" values="0 0;34 34" dur="18s" repeatCount="indefinite"/>
+    </pattern>
+    <pattern id="slashes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="8" height="24" fill="#ff4ab2" opacity=".16"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="978" y="43" width="218" height="274" rx="12"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <path d="M0 0H390L170 360H0Z" fill="url(#slashes)"/>
+  <path d="M0 0H18L238 360H220Z" fill="#f52b9b" opacity=".55">
+    <animate attributeName="opacity" values=".34;.72;.34" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M28 0H34L254 360H248Z" fill="#ffffff" opacity=".45"/>
+  <path d="M830 0H1280V360H1010Z" fill="#f52b9b" opacity=".035"/>
+
+  <!-- Dimensional portal behind the Rider Card -->
+  <g transform="translate(1087 180)" fill="none" stroke="#ff4ab2">
+    <circle r="151" stroke-width="1.4" stroke-opacity=".18" stroke-dasharray="3 13">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="32s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="132" stroke-width="2" stroke-opacity=".28" stroke-dasharray="34 17 4 17">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="21s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="112" stroke-width="1" stroke-opacity=".34" stroke-dasharray="2 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="164" stroke-width="10" stroke-opacity=".08" filter="url(#softGlow)">
+      <animate attributeName="r" values="154;168;154" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".04;.16;.04" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <ellipse cx="1087" cy="180" rx="190" ry="180" fill="url(#portalGlow)">
+    <animate attributeName="opacity" values=".45;.9;.45" dur="4.5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="76" fill="#ff75c6" font-size="15" font-weight="700" letter-spacing="5">DIMENSION CARD / NO. 09</text>
+    <path d="M82 95H820" stroke="url(#pink)" stroke-width="2"/>
+    <path d="M82 95H820" stroke="#ff8bd1" stroke-width="5" opacity=".0" filter="url(#glow)">
+      <animate attributeName="opacity" values="0;.48;0" dur="3.8s" repeatCount="indefinite"/>
+    </path>
+    <text x="76" y="204" fill="#ffffff" font-size="104" font-weight="900" letter-spacing="-5">NPLONGX</text>
+    <text x="84" y="250" fill="#f84aa9" font-size="23" font-weight="800" letter-spacing="5">DIMENSION TRAVELER<animate attributeName="fill" values="#f84aa9;#ff9ad7;#f84aa9" dur="3s" repeatCount="indefinite"/></text>
+    <text x="84" y="292" fill="#ded8e1" font-size="16" font-weight="600" letter-spacing="3">CROSSING WORLDS · BUILDING SYSTEMS</text>
+    <text x="84" y="329" fill="#77717e" font-size="11" letter-spacing="2">A2A / MCP / LOCAL-FIRST RUNTIMES / FORMAL METHODS</text>
+  </g>
+
+  <!-- Floating Dimension Card -->
+  <g id="rider-card" clip-path="url(#cardClip)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="4.2s" repeatCount="indefinite"/>
+    <rect x="978" y="43" width="218" height="274" rx="12" fill="#0b0910" stroke="#ff4ab2" stroke-width="3">
+      <animate attributeName="stroke" values="#ff4ab2;#ffb0dc;#ff4ab2" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="990" y="55" width="194" height="250" rx="7" fill="none" stroke="#ffffff" stroke-opacity=".24"/>
+    <path d="M990 55H1184V103H990Z" fill="url(#pink)"/>
+    <path d="M990 103H1184V305H990Z" fill="url(#slashes)"/>
+    <path d="M1010 130L1087 111L1163 130L1087 149Z" fill="#f52b9b" opacity=".9"/>
+    <path d="M1010 130V222L1087 248V149Z" fill="#8d155b" opacity=".85"/>
+    <path d="M1163 130V222L1087 248V149Z" fill="#e92b91" opacity=".8"/>
+    <text x="1087" y="86" text-anchor="middle" fill="#100711" font-size="17" font-weight="900" letter-spacing="4">RIDER ID</text>
+    <text x="1087" y="203" text-anchor="middle" fill="#ffffff" font-size="71" font-weight="900" filter="url(#glow)">09<animate attributeName="opacity" values=".78;1;.78" dur="2.4s" repeatCount="indefinite"/></text>
+    <text x="1087" y="277" text-anchor="middle" fill="#ff8bd1" font-size="12" font-weight="800" letter-spacing="3">SYSTEMS / BUILDER</text>
+    <!-- A luminous scanline sweeps through the card -->
+    <rect x="990" y="55" width="194" height="18" fill="url(#scan)" opacity=".85">
+      <animate attributeName="y" values="55;285;55" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".05;.72;.05" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <line x1="990" y1="60" x2="1184" y2="60" stroke="#ffb0dc" stroke-width="1" opacity="0">
+      <animate attributeName="y1" values="60;300;60" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="60;300;60" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;0" dur="3.6s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <path d="M954 28V332" stroke="#ff4ab2" stroke-width="2" opacity=".8"/>
+  <path d="M944 28H964M944 332H964" stroke="#ff4ab2" stroke-width="2"/>
+  <path d="M82 345H1198" stroke="#ffffff" stroke-opacity=".16"/>
+  <text x="1198" y="338" text-anchor="end" fill="#ff75c6" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" opacity=".7">SCANNING DIMENSIONS</text>
+</svg>
