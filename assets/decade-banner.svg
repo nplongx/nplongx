@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">NPLONGX — Dimension Traveler</title>
+  <desc id="desc">A black and magenta dimensional card inspired developer banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08080d"/>
+      <stop offset="0.58" stop-color="#15101a"/>
+      <stop offset="1" stop-color="#050509"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8bd1"/>
+      <stop offset="0.48" stop-color="#f52b9b"/>
+      <stop offset="1" stop-color="#a90064"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <pattern id="slashes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="8" height="24" fill="#ff4ab2" opacity=".16"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip"><rect x="978" y="43" width="218" height="274" rx="12"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <path d="M0 0H390L170 360H0Z" fill="url(#slashes)"/>
+  <path d="M0 0H18L238 360H220Z" fill="#f52b9b" opacity=".55"/>
+  <path d="M28 0H34L254 360H248Z" fill="#ffffff" opacity=".45"/>
+  <path d="M830 0H1280V360H1010Z" fill="#f52b9b" opacity=".035"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="76" fill="#ff75c6" font-size="15" font-weight="700" letter-spacing="5">DIMENSION CARD / NO. 09</text>
+    <path d="M82 95H820" stroke="url(#pink)" stroke-width="2"/>
+    <text x="76" y="204" fill="#ffffff" font-size="104" font-weight="900" letter-spacing="-5">NPLONGX</text>
+    <text x="84" y="250" fill="#f84aa9" font-size="23" font-weight="800" letter-spacing="5">DIMENSION TRAVELER</text>
+    <text x="84" y="292" fill="#ded8e1" font-size="16" font-weight="600" letter-spacing="3">CROSSING WORLDS · BUILDING SYSTEMS</text>
+    <text x="84" y="329" fill="#77717e" font-size="11" letter-spacing="2">A2A  /  MCP  /  LOCAL-FIRST RUNTIMES  /  FORMAL METHODS</text>
+  </g>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="978" y="43" width="218" height="274" rx="12" fill="#0b0910" stroke="#ff4ab2" stroke-width="3"/>
+    <rect x="990" y="55" width="194" height="250" rx="7" fill="none" stroke="#ffffff" stroke-opacity=".24"/>
+    <path d="M990 55H1184V103H990Z" fill="url(#pink)"/>
+    <path d="M990 103H1184V305H990Z" fill="url(#slashes)"/>
+    <path d="M1010 130L1087 111L1163 130L1087 149Z" fill="#f52b9b" opacity=".9"/>
+    <path d="M1010 130V222L1087 248V149Z" fill="#8d155b" opacity=".85"/>
+    <path d="M1163 130V222L1087 248V149Z" fill="#e92b91" opacity=".8"/>
+    <text x="1087" y="86" text-anchor="middle" fill="#100711" font-size="17" font-weight="900" letter-spacing="4">RIDER ID</text>
+    <text x="1087" y="203" text-anchor="middle" fill="#ffffff" font-size="71" font-weight="900" filter="url(#glow)">09</text>
+    <text x="1087" y="277" text-anchor="middle" fill="#ff8bd1" font-size="12" font-weight="800" letter-spacing="3">SYSTEMS / BUILDER</text>
+  </g>
+  <path d="M954 28V332" stroke="#ff4ab2" stroke-width="2" opacity=".8"/>
+  <path d="M944 28H964M944 332H964" stroke="#ff4ab2" stroke-width="2"/>
+  <path d="M82 345H1198" stroke="#ffffff" stroke-opacity=".16"/>
+</svg>
