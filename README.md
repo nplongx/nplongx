@@ -80,7 +80,42 @@ I work across application, infrastructure, and automation layers. Current intere
   <img src="https://img.shields.io/badge/Git-17121f?style=flat-square&logo=git" alt="Git" />
 </p>
 
-## `05` / SIGNAL
+## `05` / DIMENSION ARCHIVE
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top" align="center">
+        <strong>01 / RIDER CARD</strong><br />
+        <sub>Identity · Dimension Traveler</sub><br />
+        <img src="./assets/decade/02-neon-decade-rider-card.gif" alt="Kamen Rider Decade-inspired nplongx Rider Card" width="100%" />
+      </td>
+      <td width="50%" valign="top" align="center">
+        <strong>02 / TECH DECK</strong><br />
+        <sub>Build · Automate · Explore</sub><br />
+        <img src="./assets/decade/03-kamen-rider-tech-deck.gif" alt="nplongx tech deck with development stack" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top" align="center">
+        <strong>03 / CROSSING WORLDS</strong><br />
+        <sub>Enter another dimension</sub><br />
+        <img src="./assets/decade/04-neon-rider-crossing-worlds.gif" alt="Rider standing before a dimensional portal" width="100%" />
+      </td>
+      <td width="50%" valign="top" align="center">
+        <strong>04 / DIMENSION GATE</strong><br />
+        <sub>Kamen Rider Decade · Neon title card</sub><br />
+        <img src="./assets/decade/05-decade-dimension-gate.gif" alt="Kamen Rider Decade Dimension Gate title card" width="100%" />
+      </td>
+    </tr>
+  </table>
+  <br />
+  <strong>05 / END TRANSMISSION</strong><br />
+  <sub>Thanks for visiting this dimension.</sub><br />
+  <img src="./assets/decade/01-dimension-traveler-signoff.gif" alt="nplongx Dimension Traveler sign-off animation" width="320" />
+</div>
+
+## `06` / SIGNAL
 
 <div align="center">
   <img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=nplongx&show_icons=true&hide_border=true&bg_color=0d0a12&title_color=ff4ab2&icon_color=ff4ab2&text_color=e8e0ea" alt="GitHub stats" />
